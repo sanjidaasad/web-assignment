@@ -1,0 +1,20 @@
+{
+  "name": "web-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanjidaasad/web-assignment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanjidaasad/web-assignment/issues"
+  },
+  "homepage": "https://github.com/sanjidaasad/web-assignment#readme"
+}
