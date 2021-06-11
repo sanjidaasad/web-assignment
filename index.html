@@ -13,19 +13,100 @@
     <div>
       <h2>Visit to Know more about me :</h2>
       <h3>
-        <a href="address.html" target="_blank">Full Address</a>
+        <a href="" target="_blank">Full Address</a>
       </h3>
       <h3>
-        <a href="education.html" target="_blank">Education History</a>
+        <a href="" target="_blank">Education History</a>
       </h3>
     </div>
     <p>
       <br />
     </p>
     <h2>My Class Works :</h2>
-    <h3>
-      <a href="inputControl.html" target="_blank">Input Controlls Practice</a>
-    </h3>
+    <h1>Fill these information about you</h1>
+
+    <fieldset>
+      <legend>Personal information :</legend>
+      <p>
+        <lebel>Name : </lebel>
+        <input type="text" id="name" />
+
+        <br /><br />
+
+        <lebel>Department : </lebel>
+        <input type="text" id="Department" placeholder="ex: CSE" />
+
+        <br /><br />
+
+        <lebel>ID : </lebel>
+        <input type="number" id="id" />
+
+        <br /><br />
+
+        <lebel>Age : </lebel>
+        <input type="number" size="3" min="2" max="100" name="age" />
+      </p>
+      <div>
+        Gender :
+        <input type="radio" name="gender" id="male" value="male" />
+        <label for="male">Male</label>
+
+        <input type="radio" name="gender" id="female" value="female" />
+        <label for="female">Female</label>
+
+        <input type="radio" name="gender" id="others" value="others" />
+        <label for="others">Others</label>
+      </div>
+
+      <br /><br />
+
+      <label>Date of birth : </label>
+      <input type="datetime-local" />
+
+      <br /><br />
+
+      <label>Upload Picture : </label>
+      <input type="file" id="profile-photo" />
+
+      <br /><br />
+
+      <label>Your favorite color : </label>
+      <input type="color" name="color" />
+
+      <p></p>
+    </fieldset>
+
+    <fieldset>
+      <legend>Contact information :</legend>
+
+      <p>
+        Phone number :
+        <input type="tel" value="+880" />
+      </p>
+      <p>
+        E-mail :
+        <input type="email" name="email" />
+      </p>
+    </fieldset>
+
+    <fieldset>
+      <legend>Password</legend>
+      <p>
+        Enter Password :
+        <input type="password" />
+      </p>
+      <p>
+        Confirm Password :
+        <input type="password" />
+      </p>
+    </fieldset>
+    <p>
+      <input
+        type="submit"
+        onclick="alert('Thank you for regitration')"
+        value="Submit Informations"
+      />
+    </p>
     <p></p>
   </body>
 </html>
