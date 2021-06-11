@@ -1,0 +1,92 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Input Controlls</title>
+  </head>
+  <body>
+    <h1>Fill these information about you</h1>
+
+    <fieldset>
+      <legend>Personal information :</legend>
+      <p>
+        <lebel>Name : </lebel>
+        <input type="text" id="name" />
+
+        <br /><br />
+
+        <lebel>Department : </lebel>
+        <input type="text" id="Department" placeholder="ex: CSE" />
+
+        <br /><br />
+
+        <lebel>ID : </lebel>
+        <input type="number" id="id" />
+
+        <br /><br />
+
+        <lebel>Age : </lebel>
+        <input type="number" size="3" min="2" max="100" name="age" />
+      </p>
+      <div>
+        Gender :
+        <input type="radio" name="gender" id="male" value="male" />
+        <label for="male">Male</label>
+
+        <input type="radio" name="gender" id="female" value="female" />
+        <label for="female">Female</label>
+
+        <input type="radio" name="gender" id="others" value="others" />
+        <label for="others">Others</label>
+      </div>
+
+      <br /><br />
+
+      <label>Date of birth : </label>
+      <input type="datetime-local" />
+
+      <br /><br />
+
+      <label>Upload Picture : </label>
+      <input type="file" id="profile-photo" />
+
+      <br /><br />
+
+      <label>Your favorite color : </label>
+      <input type="color" name="color" />
+
+      <p></p>
+    </fieldset>
+
+    <fieldset>
+      <legend>Contact information :</legend>
+
+      <p>
+        Phone number :
+        <input type="tel" value="+880" />
+      </p>
+      <p>
+        E-mail :
+        <input type="email" name="email" />
+      </p>
+    </fieldset>
+
+    <fieldset>
+      <legend>Password</legend>
+      <p>
+        Enter Password :
+        <input type="password" />
+      </p>
+      <p>
+        Confirm Password :
+        <input type="password" />
+      </p>
+    </fieldset>
+    <p>
+      <input
+        type="submit"
+        onclick="alert('Thank you for regitration')"
+        value="Submit Informations"
+      />
+    </p>
+  </body>
+</html>
